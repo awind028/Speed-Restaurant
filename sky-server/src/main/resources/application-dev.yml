@@ -1,0 +1,22 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: root
+  alioss:
+    endpoint: https://oss-cn-guangzhou.aliyuncs.com
+  #    bucketName: 阿里云oss配置
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+  wechat:
+  #    appid: 小程序appid
+  #    secret: 小程序appid密钥
+  shop:
+    address: 北京市海淀区上地十街10号
+  baidu:
+#    ak: 百度api
